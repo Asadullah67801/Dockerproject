@@ -1,0 +1,10 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+.container-card {
+    display:flex;
+    position: relative;
+    justify-content: center;
+    
+}
