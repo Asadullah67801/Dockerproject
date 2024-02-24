@@ -1,0 +1,117 @@
+
+body{
+background-color: white;
+    box-sizing: border-box;
+}
+svg {
+    width: 100%;
+    max-width: 1350px;
+  }
+ 
+footer {
+    background-color:#F9F9F9;
+   font-family: sans-serif;
+    padding: 20px;
+    display: grid;
+    
+
+    border-top-width:thick;
+
+  }
+  .footer-item  li:hover{
+    border-bottom: 1px solid black;
+    cursor: pointer;
+    
+  }
+  
+  footer img{
+    padding: 0 50px;
+  }
+  .footer-item ul li{
+    font-size: 14px;
+ 
+  }
+  .footer-grid {
+    display: grid;
+     grid-template-columns: repeat(6,1fr);
+    gap: 10px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid gainsboro;
+    
+  }
+  
+  .footer-btn{
+    border:1px solid blue;
+    background-color: gainsboro;
+    font-size: 15px;
+    padding: 8px 20px;
+ 
+color: blue;
+text-decoration: none;}
+  .fa-brands{
+    
+    background-color:blue;
+    font-size: 30px;
+    margin: 8px;
+    border-radius:50%;
+    color: white;
+  }
+  .footer-item {
+   line-height: 1.4;
+  }
+  .footer-flex{
+    display: flex;
+
+    padding: 20px 60px;
+    justify-content: space-between;
+  }
+  
+  .footer-item img {
+    width: 100px;
+    margin-bottom: 20px;
+  }
+  
+  .footer-item h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+  }
+  
+  .footer-item ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-item li {
+    margin-bottom: 5px;
+  }
+  
+  .footer-copyright {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+
+
+
+  footer  img{
+    width:140px;
+}
+
+  @media(max-width:768px){
+   .footer-flex{
+    flex-direction: column;
+    gap:20px;
+   }
+    .footer-grid{
+        grid-template-columns: repeat(2,3fr);
+        margin: 0 25px;
+
+    }
+    .footer-grid ul li{
+        font-size: 18px;
+    }
+    .footer-btn{
+        display: inline-block;
+        margin: 0 20px;
+    }
+  }
